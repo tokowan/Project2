@@ -1,0 +1,28 @@
+.background    { background: rgb(52, 166, 251);
+                 background-image: url("https://media.giphy.com/media/ZrlFjwhclknWE/giphy.gif");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url("lavatop.gif"); }
+.wall          { background: url("metal.png");   }
+.lavabottom    { background: rgb(43, 255, 0); }
+
+.actor  { position: absolute;  }
+.coin   { background: url("coin.gif"); }
+.player { background: url("Astro1.gif"); }
+.alien  { background: url("alien.gif"); }
+.boots  { background: url("boots.gif"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("Acidman1.gif");
+}
+.won .player {
+  background: url("Astrowin.gif");
+}
